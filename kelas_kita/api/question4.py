@@ -5,7 +5,6 @@ from .models import PageView
 # Create your views here.
 
 #http://127.0.0.1:8000/question/2
-#
 def question2(request):
     i = 1
     number = []
