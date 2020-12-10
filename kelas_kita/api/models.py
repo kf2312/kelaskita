@@ -4,4 +4,4 @@ from django.db import models
 
 class PageView(models.Model):
     page_id = models.IntegerField(null=False, unique=True)
-    page_views = models.IntegerField(default=0)
+    page_views = models.IntegerField(null=False, default=0)
